@@ -1,0 +1,23 @@
+<!-- 隱藏的文章內容 -->
+<!-- 圖片區 -->
+<div id="gallery">
+  <a href="http://fast.wistia.net/embed/iframe/fe8t32e27x" data-poptrox="wistia,800x480"><img src="path/to/thumbnail.jpg" /></a>
+  </div>
+  
+
+  
+  <!-- JS 引用與初始化 -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.poptrox.min.js"></script>
+  <script>
+  $('#gallery').poptrox({
+    usePopupCaption: false,
+    usePopupNav: false,
+    popupCloserText: 'Close',
+    overlayColor: '#000',
+    overlayOpacity: 0.7,
+    popupWidth: 700,
+    popupHeight: 500
+  });
+  </script>
+  
